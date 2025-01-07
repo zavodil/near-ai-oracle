@@ -98,6 +98,9 @@ near call $CONTRACT_ID insert '{"name": "potus/0.4", "item": {"agent_name": "zav
 
 https://app.near.ai/agents/zavodil.near/potus/0.4/run
 
+<img width="1253" alt="Screenshot 2025-01-07 at 9 37 25 PM" src="https://github.com/user-attachments/assets/4f895fca-e12a-4cb1-8149-41f35bf064cd" />
+
+
 3. Querying the Oracle
 
 ```
