@@ -84,6 +84,12 @@ Adds a value to an oracle item after verifying the data submitted by an AI agent
 
 Verifies the legitimacy of the AI agent's submission to ensure that it is consistent with the oracle item’s parameters.
 
+---
+
+`verify(public_key: String, signature: String, agent_name: String, model: String, messages: Vec<Message>, temperature: Option<f64>, max_tokens: Option<u32>, completion: String, verbose: Option<bool>) -> bool`
+
+Verifies the signature of the AI agent’s response to ensure the data is authentic and comes from the correct agent.
+
 Example of Usage
 ====
 

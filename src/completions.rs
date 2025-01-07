@@ -35,7 +35,7 @@ pub struct Message {
 impl Contract {
     pub fn verify_oracle_item(&self, item: OracleItem, completion: AgentCompletion) -> bool {
         assert_eq!(item.agent_name, completion.agent_name, "Illegal Agent");
-        // let messages_json = format_messages(&completion.messages);
+
         self.verify(
             item.agent_public_key,
             completion.signature,
