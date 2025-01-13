@@ -85,6 +85,7 @@ impl Contract {
         }
     }
 
+    // placeholder function, to be implemented
     pub fn run_agent(&mut self, agent: String, message: String) {
         events::emit::run_agent(&agent, &message);
     }
